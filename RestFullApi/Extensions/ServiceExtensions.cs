@@ -11,6 +11,10 @@ namespace RestFullApi.Extensions
             services.AddScoped<IProductRepository, ProductRepository>(provider =>
                 new ProductRepository(configuration.GetConnectionString("PostgreConnection")));
             services.AddScoped<ProductService>();
+
+            services.AddScoped<IBotTokenRepository, BotTokenRepository>(provider =>
+                new BotTokenRepository(configuration.GetConnectionString("PostgreConnection")));
+            services.AddScoped<BotTokenService>();
         }
     }
 }

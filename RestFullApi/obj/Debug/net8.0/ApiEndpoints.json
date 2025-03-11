@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "RestFullApi.Controllers.BotTokenController",
+    "Method": "GetToken",
+    "RelativePath": "api/BotToken/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RestFullApi.Models.BotToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "RestFullApi.Controllers.ProductsController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Products",

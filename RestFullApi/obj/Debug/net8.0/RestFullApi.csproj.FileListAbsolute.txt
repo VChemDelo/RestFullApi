@@ -38,3 +38,4 @@ C:\Users\zavad\source\repos\RestFullApi\RestFullApi\obj\Debug\net8.0\refint\Rest
 C:\Users\zavad\source\repos\RestFullApi\RestFullApi\obj\Debug\net8.0\RestFullApi.pdb
 C:\Users\zavad\source\repos\RestFullApi\RestFullApi\obj\Debug\net8.0\RestFullApi.genruntimeconfig.cache
 C:\Users\zavad\source\repos\RestFullApi\RestFullApi\obj\Debug\net8.0\ref\RestFullApi.dll
+C:\Users\zavad\source\repos\RestFullApi\RestFullApi\obj\Debug\net8.0\RestFullApi.sourcelink.json
